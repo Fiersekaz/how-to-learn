@@ -119,7 +119,6 @@
   border-style: solid;
   flex-basis: 80%;
   min-width: 784px;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
