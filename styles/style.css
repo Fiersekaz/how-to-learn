@@ -173,12 +173,6 @@
   padding-top: 60px;
 }
 
-/*Создал ещё один модификатор для table__cell, потому что в слайде "KAUFMAN" отступы больше, чем в DIGITS.
-Хоть это не по брифу, но так мне кажется првильнее*/
-.table__cell_space_large {
-  padding-top: 80px;
-}
-
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
@@ -280,6 +274,7 @@
 }
 
 .table__cell_theme_dark {
+  padding-top: 80px;
   width: 200px;
   line-height: 1.2;
   font-size: 18px;
