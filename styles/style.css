@@ -82,7 +82,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 0;
+  margin: 0;
   width: 80%;
 }
 
@@ -127,7 +127,8 @@
 /*DIGITS*/
 
 .digits {
-  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -140,7 +141,6 @@
   padding-bottom: 20px;
   margin: 0 auto;
   z-index: 2;
-  position: relative; /*для того, чтобы сработал z-index для треугольника Kaufman*/
 }
 
 .section-subtitle {
@@ -156,15 +156,13 @@
 
 .table {
 /*border: black 1px solid;*/
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   width: 1100px;
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
 }
 
 .table__cell {
@@ -172,8 +170,13 @@
   display: flex;
   width: 250px;
   flex-direction: column;
-  margin-top: 60px;
-  padding: 0;
+  padding-top: 60px;
+}
+
+/*Создал ещё один модификатор для table__cell, потому что в слайде "KAUFMAN" отступы больше, чем в DIGITS.
+Хоть это не по брифу, но так мне кажется првильнее*/
+.table__cell_space_large {
+  padding-top: 80px;
 }
 
 .table__heading {
@@ -184,8 +187,8 @@
 }
 
 .table__text {
-  margin-top: 20px;
-  padding: 0;
+  padding-top: 20px;
+  margin: 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: none;
@@ -208,13 +211,12 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin-bottom: 70px;
   text-align: center;
   width: 648px;
   z-index: 3;
-  padding-bottom: 0;
   position: relative;
   margin: 0 auto;
+  padding-bottom: 70px;
 }
 
 .feynman__subtitle {
@@ -224,7 +226,6 @@
   margin: 0 auto;
   text-align: center;
   z-index: 2;
-  padding-bottom: 0;
   position: relative;
 }
 
@@ -260,7 +261,6 @@
   overflow: hidden;
 }
 
-
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -274,6 +274,7 @@
 }
 
 .table_theme_dark {
+  position: relative;
   color: white;
   z-index: 1;
   position: relative;
@@ -283,7 +284,7 @@
   width: 200px;
   line-height: 1.2;
   font-size: 18px;
-  margin-top: 80px;
+  margin: 0;
 }
 
 /*FOOTER*/
@@ -344,4 +345,10 @@
   color:#fff;
   text-decoration: none;
   font-weight: none;
+}
+
+.footer__social-icon {
+  width:16px;
+  height:16px;
+  padding-right: 10px;
 }
