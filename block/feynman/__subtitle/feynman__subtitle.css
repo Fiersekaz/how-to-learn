@@ -1,0 +1,9 @@
+.feynman__subtitle {
+    /*border: #fc770b 1px solid;*/
+    line-height: 51px;
+    font-size: 36px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+  }
