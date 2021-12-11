@@ -29,6 +29,13 @@
 @import url(../block/cards/__title/cards__title.css);
 @import url(../block/cards/__discription/cards__discription.css);
 
+/*VIDEO*/
+@import url(../block/video/video.css);
+@import url(../block/video/__iframes/video__iframes.css);
+@import url(../block/video/__iframe/video__iframe.css);
+
+@import url(../block/oakley/oakley.css);
+
 /*DIGITS*/
 @import url(../block/digits/digits.css);
 
