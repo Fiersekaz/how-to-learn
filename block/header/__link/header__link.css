@@ -2,10 +2,3 @@
     color: #2f80ed;
     text-decoration: none;
   }
-
-.header__link:hover {
-    color: black;
-    text-decoration: underline;
-    transition: .5s;
-    opacity: .1;
-  }
